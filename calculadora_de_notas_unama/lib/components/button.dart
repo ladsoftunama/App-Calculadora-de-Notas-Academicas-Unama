@@ -8,6 +8,7 @@ Widget button({text = 'Proximo', required onTap}) {
     child: Container(
       height: 70,
       width: 200,
+      margin: EdgeInsets.only(bottom: 50),
       alignment: Alignment.center,
       decoration: BoxDecoration(
           boxShadow: [

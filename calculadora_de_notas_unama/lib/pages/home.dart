@@ -18,6 +18,7 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     double largura = MediaQuery.of(context).size.width;
     double altura = MediaQuery.of(context).size.height;
+
     return SafeArea(
         child: Scaffold(
             body: SingleChildScrollView(
@@ -28,38 +29,40 @@ class _HomePageState extends State<HomePage> {
           topBar(largura),
           // =======================================
           SizedBox(
-            height: (altura * 1) - 90 - 30,
+            height: (altura * 1) - 90,
             width: largura,
-            child: Column(children: [
-              // =======================================
-              //      component Banner
-              bannerWidget(largura),
-              // =======================================
-              //      component margin
-              const SizedBox(height: 10),
-              // =======================================
-              //      component entrada de texto
-              inputSection(largura, 'nota 1'),
-              // =======================================
-              //      component margin
-              const SizedBox(height: 10),
-              // =======================================
-              bannerWidgetAdd(largura),
-              // =======================================
-              //      component entrada de texto
-              inputSection(largura, 'nota 2'),
-              // =======================================
-              //      component margin
-              const SizedBox(height: 20),
-              // =======================================
-              //      component button
-              button(
-                  text: 'Calcular',
-                  onTap: () {
-                    print('ola mundo');
-                  })
-              // =======================================
-            ]),
+            child: SingleChildScrollView(
+              child: Column(children: [
+                // =======================================
+                //      component Banner
+                bannerWidget(largura),
+                // =======================================
+                //      component margin
+                const SizedBox(height: 10),
+                // =======================================
+                //      component entrada de texto
+                inputSection(largura, 'nota 1'),
+                // =======================================
+                //      component margin
+                const SizedBox(height: 10),
+                // =======================================
+                bannerWidgetAdd(largura),
+                // =======================================
+                //      component entrada de texto
+                inputSection(largura, 'nota 2'),
+                // =======================================
+                //      component margin
+                const SizedBox(height: 20),
+                // =======================================
+                //      component button
+                button(
+                    text: 'Calcular',
+                    onTap: () {
+                      print('ola mundo');
+                    })
+                // =======================================
+              ]),
+            ),
           )
         ],
       ),
