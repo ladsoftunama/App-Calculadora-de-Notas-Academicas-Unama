@@ -1,4 +1,5 @@
 # Aplicativo - Calculadora de Notas Universitárias UNAMA
+
  ![img](https://github.com/ladsoftunama/ladsoftunama/raw/main/imagens/image_readme.png)
 
 ## Sobre o App
@@ -8,13 +9,17 @@ O aplicativo Calculadora de Notas Universitárias UNAMA é uma ferramenta desenv
 ## Funcionalidades
 
 O app se divide em duas telas principais para facilitar o uso e entendimento do usuário:
+ ![img](/images_readme/Frame%2014%20(1).png)
 
 ### 1. Tela Home
+
  ![img](/images_readme/FRAMES_1.png)
+
 - **Entrada de Notas:** O usuário pode inserir as notas das duas primeiras avaliações.
 - **Botão de Cálculo:** Após inserir as notas, o usuário pode clicar no botão para ser redirecionado à tela de resultado.
 
 ### 2. Tela de Resultado
+
  ![img](/images_readme/FRAMES_2.png)
 
 - **Exibição do Resultado:** Esta tela mostra o resultado do cálculo baseado nas notas inseridas, informando ao aluno a necessidade ou não de fazer a avaliação final.
@@ -26,11 +31,13 @@ O app se divide em duas telas principais para facilitar o uso e entendimento do 
 3. **Calcule o Resultado:** Clique no botão para calcular. Você será automaticamente redirecionado para a tela de resultados, onde poderá ver se precisa ou não realizar a avaliação final.
 
 ## Desenvolvimento
+
  ![img](/images_readme/FRAMES_3.png)
 
 O projeto foi desenvolvido pela equipe LADSOFTUNAMA, formada por talentosos estudantes de tecnologia da informação, comprometidos em oferecer soluções inovadoras e práticas para problemas cotidianos universitários.
 
 ## Suporte
+
  ![img](https://github.com/ladsoftunama/ladsoftunama/raw/main/imagens/image_readme.png)
 Para dúvidas, sugestões ou necessidade de suporte técnico, por favor, entre em contato conosco através do nosso e-mail: <ladsoft.unama@gmail.com>. Estamos sempre prontos para ajudar!
 
