@@ -3,18 +3,16 @@ import 'package:calculadora_de_notas_unama/components/bannerAdd.dart';
 import 'package:calculadora_de_notas_unama/components/button.dart';
 import 'package:calculadora_de_notas_unama/components/entradaDeTexto.dart';
 import 'package:calculadora_de_notas_unama/components/topbar.dart';
-import 'package:calculadora_de_notas_unama/pages/result.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
 
-class HomePage extends StatefulWidget {
-  const HomePage({super.key});
+class ResultPage extends StatefulWidget {
+  const ResultPage({super.key});
 
   @override
-  State<HomePage> createState() => _HomePageState();
+  State<ResultPage> createState() => _ResultPageState();
 }
 
-class _HomePageState extends State<HomePage> {
+class _ResultPageState extends State<ResultPage> {
   @override
   Widget build(BuildContext context) {
     double largura = MediaQuery.of(context).size.width;
@@ -59,8 +57,7 @@ class _HomePageState extends State<HomePage> {
                 button(
                     text: 'Calcular',
                     onTap: () {
-                      Navigator.of(context).push(MaterialPageRoute(
-                          builder: (context) => ResultPage()));
+                      // print('ola mundo');
                     })
                 // =======================================
               ]),
