@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 
-Widget button({text = 'Proximo', required onTap}) {
+Widget button(
+    {text = 'Proximo', required onTap, color = const Color(0xff639976)}) {
   return InkWell(
     onTap: () {
       onTap();
@@ -8,7 +9,6 @@ Widget button({text = 'Proximo', required onTap}) {
     child: Container(
       height: 70,
       width: 200,
-      margin: EdgeInsets.only(bottom: 50),
       alignment: Alignment.center,
       decoration: BoxDecoration(
           boxShadow: [
@@ -19,7 +19,7 @@ Widget button({text = 'Proximo', required onTap}) {
               offset: const Offset(0, 3), // Mudanças na posição da sombra
             ),
           ],
-          color: const Color(0xff639976),
+          color: color,
           borderRadius: const BorderRadius.all(Radius.circular(10))),
       child: Text(
         text,

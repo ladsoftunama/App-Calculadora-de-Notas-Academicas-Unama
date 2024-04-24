@@ -41,9 +41,9 @@ O projeto foi desenvolvido pela equipe LADSOFTUNAMA, formada por talentosos estu
  ![img](https://github.com/ladsoftunama/ladsoftunama/raw/main/imagens/image_readme.png)
 Para dúvidas, sugestões ou necessidade de suporte técnico, por favor, entre em contato conosco através do nosso e-mail: <ladsoft.unama@gmail.com>. Estamos sempre prontos para ajudar!
 
-## Licença
+<!-- ## Licença
 
-Este projeto é disponibilizado sob a licença MIT, permitindo que qualquer pessoa possa usar, modificar e distribuir o trabalho, desde que mantenha o crédito aos autores originais e forneça uma cópia da licença em quaisquer trabalhos derivados.
+Este projeto é disponibilizado sob a licença MIT, permitindo que qualquer pessoa possa usar, modificar e distribuir o trabalho, desde que mantenha o crédito aos autores originais e forneça uma cópia da licença em quaisquer trabalhos derivados. -->
 
 ## Agradecimentos
 
@@ -52,3 +52,36 @@ Agradecemos a todos os integrantes da liga academica de desenvolvimento de softw
 ---
 
 Equipe LADSOFTUNAMA - Transformando desafios em soluções digitais.
+
+## Equipe de desenvolvimento
+
+@Marco antonio
+@Rellan Monteiro
+@Matheus Barbosa
+@Igor Alexsandro
+@Felipe
+@Henrique
+@Mateus Cunha
+@Thiago Tomé
+@José ribeiro
+@Yuri Afonso Costa
+
+## Equipe de design
+
+@Marco antonio
+@Iago Dantas
+@Pablo Henrique
+@João Emannueln
+@jackeline
+
+## Equipe de documentação
+
+@Marco antonio
+@Diosne Marlon
+@Caique Pinto
+@Carlos Victor
+@Maria Luiza
+
+## Orientador
+
+[@Erminio Augusto Ramos da Paixao](http://lattes.cnpq.br/3441462516404507)

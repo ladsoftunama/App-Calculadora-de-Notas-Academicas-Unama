@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 
-// ignore: must_be_immutable
 class bannerWidget extends StatelessWidget {
   double tamanho;
-  bannerWidget(this.tamanho);
+  AssetImage assetImage;
+  bannerWidget(this.tamanho, this.assetImage);
 
   @override
   Widget build(BuildContext context) {
@@ -11,9 +11,8 @@ class bannerWidget extends StatelessWidget {
       margin: const EdgeInsets.only(top: 20),
       width: tamanho - 60,
       height: 300,
-      decoration: const BoxDecoration(
-        image: DecorationImage(
-            image: AssetImage('image/bannerImage.png'), fit: BoxFit.fitHeight),
+      decoration: BoxDecoration(
+        image: DecorationImage(image: assetImage, fit: BoxFit.fitHeight),
       ),
     );
   }

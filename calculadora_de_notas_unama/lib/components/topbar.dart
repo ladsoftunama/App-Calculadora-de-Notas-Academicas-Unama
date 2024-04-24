@@ -30,10 +30,10 @@ Container topBar(double largura) {
               image: const DecorationImage(
                   scale: 10.7,
                   image: AssetImage(
-                    'image/Logo.png',
+                    'image/Logo2.png',
                   )),
-              color: Colors.white,
-              border: Border.all(width: 1.5, color: Colors.white),
+              // color: Colors.white,
+              // border: Border.all(width: 1.5, color: Colors.white),
               shape: BoxShape.circle),
         ),
         // ========================================================
@@ -41,7 +41,7 @@ Container topBar(double largura) {
         // ========================================================
 
         Container(
-          margin: const EdgeInsets.only(left: 15),
+          margin: const EdgeInsets.only(left: 0),
           child: const Text(
             'Calculadora de Notas ',
             style: TextStyle(
