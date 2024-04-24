@@ -169,7 +169,7 @@ final eqdesign = """
 @Iago Dantas
 @Pablo Henrique
 @João Emannueln
-@jackeline Pereira
+@Jackeline Pereira
 """;
 
 final eqdocumentacao = """
