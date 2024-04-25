@@ -6,6 +6,8 @@
 
 O aplicativo Calculadora de Notas Universitárias UNAMA é uma ferramenta desenvolvida para auxiliar os estudantes da Universidade da Amazônia (UNAMA) a calcular suas notas ao longo do semestre, permitindo-lhes saber antecipadamente se precisam ou não fazer a avaliação final para alcançar a nota mínima exigida pela instituição. Este app foi cuidadosamente elaborado pela equipe LADSOFTUNAMA(Liga academica de desenvolvimento de sofware unama), visando facilitar a vida acadêmica dos alunos.
 
+- [Download app notai academico](https://github.com/ladsoftunama/App-Calculadora-de-Notas-Academicas-Unama/releases/tag/v1)
+
 ## Funcionalidades
 
 O app se divide em duas telas principais para facilitar o uso e entendimento do usuário:
