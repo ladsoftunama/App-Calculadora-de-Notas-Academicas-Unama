@@ -3,6 +3,7 @@ import 'package:calculadora_de_notas_unama/components/bannerAdd.dart';
 import 'package:calculadora_de_notas_unama/components/button.dart';
 import 'package:calculadora_de_notas_unama/components/entradaDeTexto.dart';
 import 'package:calculadora_de_notas_unama/components/topbar.dart';
+import 'package:calculadora_de_notas_unama/navigation/navigation.dart';
 import 'package:calculadora_de_notas_unama/pages/result.dart';
 import 'package:calculadora_de_notas_unama/pages/sobre.dart';
 import 'package:flutter/material.dart';
@@ -96,11 +97,12 @@ class _HomePageState extends State<HomePage> {
                           if (controllerNota1.text.isNotEmpty &&
                               controllerNota2.text.isNotEmpty) {
                             isError = false;
-                            Navigator.of(context).push(MaterialPageRoute(
-                                builder: (context) => ResultPage(
-                                      nota1: controllerNota1.text,
-                                      nota2: controllerNota2.text,
-                                    )));
+                            navigateToPageWithReverseSlideAnimation(
+                                context,
+                                ResultPage(
+                                  nota1: controllerNota1.text,
+                                  nota2: controllerNota2.text,
+                                ));
                           } else {
                             setState(() {
                               isError = true;
@@ -115,8 +117,9 @@ class _HomePageState extends State<HomePage> {
                     button(
                         text: 'sobre o app',
                         onTap: () {
-                          Navigator.of(context).push(
-                              MaterialPageRoute(builder: (_) => SobrePage()));
+                          navigateToPageWithReverseSlideAnimation(
+                              context, SobrePage());
+
                           //
                         }),
                     // =======================================
