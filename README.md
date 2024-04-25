@@ -62,28 +62,28 @@ Equipe LADSOFTUNAMA - Transformando desafios em soluções digitais.
 @Rellan Monteiro
 @Matheus Barbosa
 @Igor Alexsandro
-@Felipe
-@Henrique
-@Mateus Cunha
+@Felipe Moura
+@Henrique Jeremias
+@Mateus Nunes
 @Thiago Tomé
-@José ribeiro
+@Josè ribeiro
 @Yuri Afonso Costa
 
 ## Equipe de design
 
 @Marco antonio
-@Iago Dantas
+@lago Dantas
 @Pablo Henrique
 @João Emannueln
-@jackeline
+@jackeline Pereira
 
 ## Equipe de documentação
 
 @Marco antonio
 @Diosne Marlon
-@Caique Pinto
+@Caique Costa
 @Carlos Victor
-@Maria Luiza
+@Maria Rodrigue
 
 ## Orientador
 
