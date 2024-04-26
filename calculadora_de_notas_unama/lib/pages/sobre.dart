@@ -1,13 +1,7 @@
 import 'package:calculadora_de_notas_unama/components/banner.dart';
-import 'package:calculadora_de_notas_unama/components/bannerAdd.dart';
-import 'package:calculadora_de_notas_unama/components/button.dart';
-import 'package:calculadora_de_notas_unama/components/entradaDeTexto.dart';
 import 'package:calculadora_de_notas_unama/components/topbar.dart';
-import 'package:calculadora_de_notas_unama/pages/result.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter/widgets.dart';
-import 'package:url_launcher/url_launcher.dart';
+// import 'package:url_launcher/url_launcher.dart';
 
 class SobrePage extends StatefulWidget {
   const SobrePage({super.key});
@@ -21,13 +15,13 @@ class _SobrePageState extends State<SobrePage> {
   TextEditingController controllerNota2 = TextEditingController();
   bool isError = false;
 
-  void abrirUrl(url) async {
-    if (await canLaunchUrl(Uri.parse(url))) {
-      await launchUrl(Uri.parse(url));
-    } else {
-      throw 'Could not launch $url';
-    }
-  }
+  // void abrirUrl(url) async {
+  //   if (await canLaunchUrl(Uri.parse(url))) {
+  //     await launchUrl(Uri.parse(url));
+  //   } else {
+  //     throw 'Could not launch $url';
+  //   }
+  // }
 
   @override
   Widget build(BuildContext context) {
@@ -101,31 +95,32 @@ class _SobrePageState extends State<SobrePage> {
                                 style: TextStyle(fontWeight: FontWeight.w800),
                               ),
                               Text("@Erminio Augusto Ramos da Paixao"),
-                              SizedBox(height: 30)
+                              SizedBox(height: 30),
+                              Text(txt)
                             ],
                           )),
                     ),
                     // =======================================
                     //      component button sobre o app
-                    button(
-                        text: 'Acessar pagina do projeto',
-                        onTap: () {
-                          //
-                          abrirUrl(
-                              'https://github.com/ladsoftunama/App-Calculadora-de-Notas-Academicas-Unama');
-                        }),
+                    // button(
+                    //     text: 'Acessar pagina do projeto',
+                    //     onTap: () {
+                    //       //
+                    //       abrirUrl(
+                    //           'https://github.com/ladsoftunama/App-Calculadora-de-Notas-Academicas-Unama');
+                    //     }),
                     // =======================================
                     //  margem
                     SizedBox(height: 10),
                     // =======================================
                     //      component button sobre o app
-                    button(
-                        text: 'privacy policy',
-                        onTap: () {
-                          //
-                          abrirUrl(
-                              "https://github.com/ladsoftunama/App-Calculadora-de-Notas-Academicas-Unama/blob/main/privacy%20policy.md");
-                        }),
+                    // button(
+                    //     text: 'privacy policy',
+                    //     onTap: () {
+                    //       //
+                    //       abrirUrl(
+                    //           "https://github.com/ladsoftunama/App-Calculadora-de-Notas-Academicas-Unama/blob/main/privacy%20policy.md");
+                    //     }),
                     // =======================================
                     //        Margem
                     const SizedBox(height: 40),
@@ -150,6 +145,15 @@ bool validate(String input) {
     return false;
   }
 }
+
+final txt = """
+\n
+acesse o codigo do projeto em :
+github.com/ladsoftunama/App-Calculadora-de-Notas-Academicas-Unama
+
+acesse as politicas de privacidade em :
+github.com/ladsoftunama/App-Calculadora-de-Notas-Academicas-Unama/blob/main/privacy%20policy.md
+""";
 
 final eqdesenvolvimento = """
 @Marco antonio
